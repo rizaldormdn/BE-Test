@@ -70,7 +70,7 @@ exports.refactoreMe1 = (req, res) => {
       data: totalIndex,
     });
   });
-};
+};  
 
 exports.refactoreMe2 = (req, res) => {
   // function ini untuk menjalakan query sql insert dan mengupdate field "dosurvey" yang ada di table user menjadi true, jika melihat data yang di berikan, salah satu usernnya memiliki dosurvey dengan data false
